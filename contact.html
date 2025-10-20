@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact Us — Umang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Umang</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <div class="card">
+      <h1>Contact Umang</h1>
+      <p>If you are a survivor seeking help or want to volunteer, please reach out using the form below.</p>
+
+      <!-- Note: For Project 1 you do not need to make the form actually submit with JS -->
+      <form action="#" method="post" aria-label="Contact form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" placeholder="Full name" required>
+
+        <label for="email">Your email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="type">I'm a</label>
+        <select id="type" name="type">
+          <option>Survivor</option>
+          <option>Volunteer</option>
+          <option>Donor</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="How can we help?"></textarea>
+
+        <button type="submit" class="primary">Send message</button>
+      </form>
+    </div>
+
+    <div style="margin-top:16px;">
+      <div class="card">
+        <h3>Team contact details</h3>
+        <p><strong>Project lead:</strong> Khushi (placeholder)</p>
+        <p><strong>Email:</strong> <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></p>
+        <p><strong>Campus:</strong> Capilano University — COMP SCI (placeholder)</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Umang — Student project</small>
+    </div>
+  </footer>
+</body>
+</html>
